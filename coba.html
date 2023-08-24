@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 1000;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .whatsapp-float a {
+            display: block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #25d366;
+            color: #fff;
+            text-align: center;
+            line-height: 60px;
+            font-size: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .whatsapp-float a:hover {
+            background-color: #128c7e;
+        }
+
+        .whatsapp-float a i {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .whatsapp-float a:hover i {
+            transform: rotate(360deg);
+        }
+    </style>
+    <title>Floating WhatsApp</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Welcome to Our Website</h1>
+        <p class="lead text-center">Feel free to explore our services and contact us through WhatsApp.</p>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/1234567890" target="_blank">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

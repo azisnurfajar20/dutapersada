@@ -161,6 +161,21 @@
   opacity: 0.3;
 }
 
+/* Parallax */
+.parallax {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/background-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+/*  */
+
 /*** Hero Header ***/
 .hero-header {
   background: linear-gradient(rgba(6, 80, 155, 0.7), rgba(6, 80, 155, 0.7)),
